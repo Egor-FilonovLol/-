@@ -59,8 +59,8 @@ class Apple(GameObject):
         pygame.draw.rect(screen, BORDER_COLOR, rect, 1)
 
     def randomize_position(self):
-        x = randint(0, GRID_WIDTH-1) * GRID_SIZE
-        y = randint(0, GRID_HEIGHT-1) * GRID_SIZE
+        x = randint(0, GRID_WIDTH - 1) * GRID_SIZE
+        y = randint(0, GRID_HEIGHT - 1) * GRID_SIZE
         self.position = (x, y)
 
 
